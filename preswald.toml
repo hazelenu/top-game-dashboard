@@ -1,0 +1,20 @@
+[project]
+title = "Top Game Dashboard"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "Top Game Dashboard"
+logo = "images/yiranli.jpg"
+favicon = "images/joystick.ico"
+primaryColor = "#3EBEFF"
+
+[data.Top_Selling_Games_csv]
+type = "csv"
+path = "data/Top_Selling_Games.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
