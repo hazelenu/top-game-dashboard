@@ -2,7 +2,7 @@
 title = "Top Game Dashboard"
 version = "0.1.0"
 port = 8501
-slug = "{project_slug}"
+slug = "{top_game_dashboard}"
 entrypoint = "hello.py"
 
 [branding]
